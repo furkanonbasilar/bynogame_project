@@ -1,0 +1,20 @@
+.mobile-header {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #111;
+  border-top: 1px solid #181818;
+  z-index: 999999;
+
+  i {
+    font-size: 19px;
+    color: white;
+  }
+}

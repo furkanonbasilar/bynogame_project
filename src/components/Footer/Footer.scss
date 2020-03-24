@@ -1,0 +1,38 @@
+@import "../../sass/modules/grid";
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  height: 250px;
+  background-color: #232f3e;
+  @include sm {
+    height: auto;
+  }
+  ul {
+    padding: 0;
+  }
+  h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  li {
+    font-size: 0.8rem;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .footer-row {
+    flex-wrap: nowrap;
+    width: 1280px;
+    margin: 0 auto;
+    @include md {
+      width: 767px;
+    }
+  }
+}

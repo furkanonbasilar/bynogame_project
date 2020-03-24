@@ -1,0 +1,16 @@
+.carousel-indicators {
+  position: static;
+  li {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+}
+
+.carousel {
+  &.slide {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

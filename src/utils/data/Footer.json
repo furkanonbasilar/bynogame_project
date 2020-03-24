@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "ByNoGame",
+    "column": [
+      "Hakkımızda",
+      "Yorumlar",
+      "Etkinlikler",
+      "Kariyer",
+      "Sponsorluk Desteklerimiz",
+      "Bir Fikrim Var!"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Alışveriş",
+    "column": [
+      "Ödeme Seçenekleri",
+      "Banka Hesap Numaralarımız",
+      "Ödeme Yap(tım)",
+      "Takas",
+      "Bayiniz Olmak İstiyorum",
+      " BNGPay Destekle"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Üyelik",
+    "column": [
+      "Üye Adı/Şifremi Unuttum",
+      "Bilgilerim",
+      "Destek Taleplerim",
+      "Siparişlerim",
+      "Güvenlik",
+      "Hesap Silme"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Yardım",
+    "column": [
+      "S.S.S",
+      "Canlı Destek",
+      "Gizlilik Politikası",
+      "Üyelik ve Hizmet Sözleşmesi",
+      "Hizmet Alım Satım Sözleşmesi"
+    ]
+  }
+]

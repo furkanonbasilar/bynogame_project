@@ -1,0 +1,28 @@
+@import "../../sass/modules/grid";
+
+* {
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.main-container {
+  padding-top: 60px;
+  @include sm {
+    padding-bottom: 60px;
+  }
+  section {
+    width: 1280px;
+    margin: 0 auto;
+
+    @include md {
+      width: 767px;
+      margin: 0 auto;
+    }
+    @include sm {
+      width: 100%;
+      padding: 0 15px;
+      min-height: calc(100vh - 271px);
+    }
+    min-height: calc(100vh - 340px);
+  }
+}

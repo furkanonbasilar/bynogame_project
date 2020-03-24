@@ -1,0 +1,19 @@
+@import "../../sass/modules/grid";
+
+@include md {
+  .list-cards {
+    .col-xl-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}
+
+@include sm {
+  .list-cards {
+    .col-xl-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}

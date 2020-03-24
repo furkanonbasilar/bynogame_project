@@ -1,22 +1,17 @@
 import * as TYPES from "./actionTypes";
 
 const initialState = {
-  cards: [],
-
+  cards: []
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case TYPES.: {
+    case TYPES.SET_CARDS: {
       return Object.assign({}, state, {
-   
+        cards: action.cards
       });
     }
-    case TYPES.: {
-      return Object.assign({}, state, {
 
-      });
-    }
     default:
       return state;
   }
